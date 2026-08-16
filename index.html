@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Roshani Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&display=block" rel="stylesheet">
+</head>
+<body>
+<!-- Loading Screen -->
+<div id="loader">
+    <div class="loader-content">
+        <div class="spinner"></div>
+        <h2>Loading Portfolio...</h2>
+    </div>
+</div>
+
+    <div id="progress-bar"></div>
+    <nav>
+       <h2 id="secret-trigger-nav">Roshani Singh</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+    
+    </ul>
+    <button id="theme-btn">🌙</button>
+</nav>
+
+<section class="landing" id="landing">
+
+    <h1>PORTFOLIO</h1>
+
+    <h2 class="signature">Roshani Singh</h2>
+
+    <p>Building the Future with Code & AI</p>
+
+    <a href="#home" class="explore-btn">Explore Portfolio ↓</a>
+
+</section>
+
+<section id="home" class="hero">
+    <img src="profile.img.jpeg" alt="Roshani Singh" class="profile">
+    <h1> Hi, I'm <span id="secret-trigger">Roshani Singh</span></h1>
+    <h2>B.Tech CSE(AI/ML) Student</h2> 
+
+        <p id="typing"></p>
+        <div class="social-links">
+       <a href="https://www.linkedin.com/in/roshani-singh-2553b7402">Linkedln</a>
+       <a href="https://github.com/officialRoshanisngh">GitHub</a>
+       <a href="mailto:roshanisinghofficial99@gmail.com"> Email</a>     
+        </div>
+
+        <p>
+            I am passionate about Web Development,AI and Machine Learning.
+              I enjoy learning new technologies and building projects.            
+        </p>
+
+        <button onclick="showMessage()">Hire Me</button>
+
+<a href="Roshani Singh_Resume.pdf"
+target="_blank" class="resume-btn">
+    Download Resume        
+</a>
+</section>
+
+    <section id="about" class="about" data-aos="zoom-in-up">
+    <h2>About Me</h2>
+
+    <p>
+        Hello! I'm Roshani Singh, a B.Tech CSE (AI/ML) student.
+        I am passionate about Web Development, Artificial Intelligence,
+        Machine Learning and Python Programming.
+    </p>
+
+    <p>
+        I love learning new technologies and building creative projects
+        to improve my technical skills.
+    </p>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+
+    <div class="stat-card">
+        <h2 class="counter"
+    data-target="1">0</h2>    
+        <p>Year Learning</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter"
+    data-target="3">0</h2>    
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter"
+    data-target="2">0</h2>
+        <p>Certificates</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter"
+    data-target="100">0</h2>
+        <p>Passion</p>
+    </div>
+</section>    
+
+<section class="design-tools"><h2 class="section-title">Design Tools</h2>
+
+<div class="tools-grid">
+
+    <div class="tool">
+        <div class="tool-icon">🎨</div>
+        <p>Adobe Photoshop</p>
+    </div>
+
+    <div class="tool">
+        <div class="tool-icon">🖍️</div>
+        <p>Adobe Illustrator</p>
+    </div>
+
+    <div class="tool">
+        <div class="tool-icon">✨</div>
+        <p>Canva</p>
+    </div>
+
+    <div class="tool">
+        <div class="tool-icon">🎯</div>
+        <p>Figma</p>
+    </div>
+
+</div>
+
+</section>
+
+<section id="projects" class="projects" data-aos="zoom-in">
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive personal portfolio website built using HTML, CSS and JavaScript with Dark Mode, Smooth Scrolling and Responsive Design.</p>
+            <button>View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Python Programs Collection</h3>
+            <p>A collection of Python programs covering Variables, Loops, Functions, Lists, Tuples, Dictionaries, Strings, Files and Exception Handling.</p>
+            <button>In Progress</button>
+        </div>
+
+        <div class="project-card">
+            <h3>AI/ML Learning Journey</h3>
+            <p>Beginner Artificial Intelligence and Machine Learning projects using Python. More exciting projects will be added soon.</p>
+            <button>Coming Soon</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="skills" class="skills" data-aos="flip-left">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <div class="progress">
+    <span style="width:90%"></span>
+</div>
+            <p>Creating structured web pages.</p>
+        </div>
+
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <div class="progress">
+    <span style="width:85%"></span>
+</div>
+            <p>Designing beautiful and responsive websites.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Python</h3>
+            <div class="progress">
+    <span style="width:80%"></span>
+</div>
+            <p>Learning programming and problem solving.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>AI/ML</h3>
+            <div class="progress">
+    <span style="width:90%"></span>
+</div>
+            <p>Exploring Artificial Intelligence and Machine Learning.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="education" class="education" data-aos="fade-up">
+
+    <h2>Education</h2>
+
+    <div class="education-card">
+        <h3>B.Tech in Computer Science (AI/ML)</h3>
+        <p>Noida International University</p>
+        <p>2026 - Present</p>
+    </div>
+
+</section>
+
+<section id="certificates" class="certificates" data-aos="fade-up">
+
+    <h2>Certificates</h2>
+
+    <div class="certificate-card">
+        <h3>Python Programming</h3>
+        <p>Completed Python Programming Course.</p>
+    </div>
+
+    <div class="certificate-card">
+        <h3>AI & Machine Learning</h3>
+        <p>Currently Learning AI and Machine Learning.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+
+<p><strong>Name:</strong> Roshani Singh</p>
+
+<p>
+    <strong>Email:</strong>
+    <a href="mailto:roshanisinghofficial99@gmail.com">
+        roshanisinghofficial99@gmail.com
+    </a>
+</p>
+
+<p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+
+<p><strong>Location:</strong> Greater Noida, Uttar Pradesh</p>
+
+<form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+
+    <input type="email" placeholder="Your Email" required>
+
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
+<div class="social-links">
+    <a href="https://github.com/officialRoshanisngh/" target="_blank">🐙 GitHub</a>
+
+    <a href="https://www.linkedin.com/in/roshani-singh-2553b7402/" target="_blank">💼 LinkedIn</a>
+
+    <a href="mailto:roshanisinghofficial99@email.com/" target="_blank">📧 Email</a>
+</div>
+
+</section>
+
+<footer>
+    <h3>Roshani Singh</h3>
+    <p>B.Tech CSE (AI/ML) Student</p>
+    <p>Learning • Building • Growing 🚀</p>
+    <p>© 2026 All Rights Reserved.</p>
+</footer>
+           <button id="topBtn">⬆</button>
+
+<!-- THANK YOU SECTION -->
+<section class="thank-you" id="thankyou">
+    <div class="thank-container">
+
+        <h1>THANK YOU</h1>
+
+        <p>Thanks for visiting my portfolio.</p>
+        <p class="connect-text">Let's Connect 🚀</p>
+
+        <div class="social-links">
+            <a href="mailto:roshanisinghofficial99@email.com">📧 Email</a>
+            <a href="https://www.linkedin.com/in/roshani-singh-2553b7402" target="_blank">💼 LinkedIn</a>
+            <a href="https://github.com/officialRoshanisngh" target="_blank">🐙 GitHub</a>
+        </div>
+
+        <a href="#contact" class="hire-btn">Hire Me</a>
+
+        <hr>
+
+        <p class="footer-text">
+            Made with ❤️ by <span>Roshani Singh</span>
+        </p>
+
+    </div>
+</section>
+   
+<button id="topBtn" title="Go to Top">↑</button>
+
+<!-- Secret R+S Popup -->
+<div id="secret-popup" class="secret-popup">
+    <div class="secret-box">
+        <div class="sparkles">
+    <span>✨</span>
+    <span>⭐</span>
+    <span>✨</span>
+    <span>💙</span>
+    <span>⭐</span>
+    <span>✨</span>
+</div>
+        
+        <h2>✨ You Found the Hidden R + S Secret! ✨</h2>
+
+<p>Welcome to <strong>Roshani's World 💙</strong></p>
+
+<p>Every expert was once a beginner who refused to give up.</p>
+
+<p>📚 Keep Learning</p>
+<p>💻 Keep Building</p>
+<p>🚀 Keep Growing</p>
+
+<p class="secret-note">
+⭐ Congratulations!<br>
+You discovered the portfolio's hidden Easter Egg.
+</p>
+<canvas id="confetti-canvas"></canvas>
+
+<button onclick="closeSecret()">✨ Continue Exploring →</button>
+
+        <button onclick="closeSecret()">Close</button>
+    </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
